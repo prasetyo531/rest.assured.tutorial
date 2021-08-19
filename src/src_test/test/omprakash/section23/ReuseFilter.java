@@ -1,7 +1,5 @@
 package test.omprakash.section23;
 
-import com.mysql.cj.log.Log;
-import com.sun.deploy.util.SyncFileAccess;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
