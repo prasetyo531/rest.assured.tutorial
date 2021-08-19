@@ -1,0 +1,164 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "required": [
+    "meta",
+    "error",
+    "data"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "title": "The meta schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "required": [
+        "code",
+        "msg"
+      ],
+      "properties": {
+        "code": {
+          "type": "integer",
+          "title": "The code schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0
+        },
+        "msg": {
+          "type": "string",
+          "title": "The msg schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": ""
+        }
+      },
+      "additionalProperties": true
+    },
+    "error": {
+      "type": "array",
+      "title": "The error schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "additionalItems": true
+    },
+    "data": {
+      "type": "object",
+      "title": "The data schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "required": [
+        "rows",
+        "firsttime_loginapp",
+        "is_exists",
+        "code",
+        "inviter",
+        "toast",
+        "token"
+      ],
+      "properties": {
+        "rows": {
+          "type": "object",
+          "title": "The rows schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": {},
+          "properties": {
+            "id": {
+              "type": "integer",
+              "title": "The id schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0
+            },
+            "forum_id": {
+              "type": "integer",
+              "title": "The forum_id schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0
+            },
+            "fullname": {
+              "type": "string",
+              "title": "The fullname schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": ""
+            },
+            "username": {
+              "type": "string",
+              "title": "The username schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": ""
+            },
+            "email": {
+              "type": "string",
+              "title": "The email schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": ""
+            },
+            "birthday": {
+              "type": "string",
+              "title": "The birthday schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": ""
+            },
+            "join_date": {
+              "type": "string",
+              "title": "The join_date schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": ""
+            },
+            "is_facebook_connect": {
+              "type": "boolean",
+              "title": "The is_facebook_connect schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": false
+            },
+            "is_secured": {
+              "type": "boolean",
+              "title": "The is_secured schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": false
+            }
+          },
+          "additionalProperties": true
+        },
+        "firsttime_loginapp": {
+          "type": "boolean",
+          "title": "The firsttime_loginapp schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": false
+        },
+        "is_exists": {
+          "type": "boolean",
+          "title": "The is_exists schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": false
+        },
+        "code": {
+          "type": "array",
+          "title": "The code schema",
+          "description": "An explanation about the purpose of this instance.",
+          "additionalItems": true
+        },
+        "inviter": {
+          "type": "object",
+          "title": "The inviter schema",
+          "description": "An explanation about the purpose of this instance.",
+          "additionalProperties": true
+        },
+        "toast": {
+          "type": "array",
+          "title": "The toast schema",
+          "description": "An explanation about the purpose of this instance.",
+          "additionalItems": true
+        },
+        "token": {
+          "type": "string",
+          "title": "The token schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": ""
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

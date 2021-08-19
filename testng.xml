@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" verbose="2" thread-count="1">
+    <test name="Test_get">
+        <classes>
+            <class name="test.tcGet.get_blogarticle"/>
+            <class name="test.tcGet.get_commentpost_web"/>
+            <class name="test.tcGet.get_commentreview_web"/>
+            <class name="test.tcGet.get_feed_apps"/>
+            <class name="test.tcGet.get_feed_web"/>
+            <class name="test.tcGet.get_feeddetail_web"/>
+            <class name="test.tcGet.get_feedreport"/>
+            <class name="test.tcGet.get_follower_web"/>
+            <class name="test.tcGet.get_following_web"/>
+            <class name="test.tcGet.get_newestreview"/>
+            <class name="test.tcGet.get_notifcount"/>
+            <class name="test.tcGet.get_notifpage"/>
+            <class name="test.tcGet.get_postdetail"/>
+            <class name="test.tcGet.get_productdetail_web"/>
+            <class name="test.tcGet.get_productlist_web"/>
+            <class name="test.tcGet.get_productmatches_apps"/>
+            <class name="test.tcGet.get_products_web"/>
+            <class name="test.tcGet.get_productsimilar"/>
+            <class name="test.tcGet.get_productssimilar_web"/>
+            <class name="test.tcGet.get_reviewdetail_web"/>
+            <class name="test.tcGet.get_reviewlist_web"/>
+            <class name="test.tcGet.get_suggestedEnthusiastUserid"/>
+            <class name="test.tcGet.get_userbrand"/>
+            <class name="test.tcGet.get_userfeed"/>
+            <class name="test.tcGet.get_userpredifined"/>
+            <class name="test.tcGet.get_userProfile_apps"/>
+            <class name="test.tcGet.get_userProfile_apps"/>
+            <class name="test.tcGet.get_productsearch_apps"/>
+            <class name="test.tcGet.get_productsearch_web"/>
+            <class name="test.tcGet.get_editorchoice_web"/>
+        </classes>
+    </test>
+    <test name="Test_post">
+        <classes>
+            <class name="test.tcPost.post_addproduct"/>
+            <class name="test.tcPost.post_addreview_web"/>
+            <class name="test.tcPost.post_followsuggested_web"/>
+            <class name="test.tcPost.post_followuser_apps"/>
+            <class name="test.tcPost.post_followuser_web"/>
+            <class name="test.tcPost.post_followusers_apps"/>
+            <class name="test.tcPost.post_forgetpassword_apps"/>
+            <class name="test.tcPost.post_forgetpassword_web"/>
+            <class name="test.tcPost.post_likepost_apps"/>
+            <!--<class name="test.tcPost.post_likepost_web"/>-->
+            <class name="test.tcPost.post_likereview_apps"/>
+            <class name="test.tcPost.post_likereview_web"/>
+            <class name="test.tcPost.post_login_apps"/>
+            <class name="test.tcPost.post_login_web"/>
+            <!-- sengaja di skip           <class name="test.tcPost.post_register_apps"/>-->
+            <class name="test.tcPost.post_register_web"/>
+            <class name="test.tcPost.post_usercommentpost_web"/>
+            <class name="test.tcPost.post_usercommentreview_web"/>
+            <class name="test.tcPost.post_userpost_apps"/>
+            <class name="test.tcPost.post_userposttagging_apps"/>
+            <class name="test.tcPost.post_discover_apps"/>
+        </classes>
+    </test>
+    <test name="Test_put">
+        <classes>
+            <class name="test.tcPut.put_profilecomplete_apps"/>
+            <class name="test.tcPut.put_profilecomplete_web"/>
+            <class name="test.tcPut.put_profileinfo_web"/>
+            <class name="test.tcPut.put_profileinfo_apps"/>
+            <class name="test.tcPut.put_userpost_apps"/>
+            <class name="test.tcPut.put_userreview_apps"/>
+            <class name="test.tcPut.put_userreview_web"/>
+        </classes>
+    </test>
+    <test name="Test_talk_get">
+        <classes>
+            <class name="test.tcTalkGet.get_popularGroup"/>
+            <class name="test.tcTalkGet.get_recenttalk"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
+

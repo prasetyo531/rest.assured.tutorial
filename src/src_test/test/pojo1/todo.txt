@@ -1,0 +1,8 @@
+https://medium.com/swlh/how-to-parse-json-xml-using-the-same-code-in-java-b3f79ac322c7
+https://stackabuse.com/serialize-and-deserialize-xml-in-java-with-jackson/
+
+NEXT:
+https://stackabuse.com/comparing-strings-with-java/
+https://stackabuse.com/javas-object-methods-hashcode/
+
+https://www.youtube.com/watch?v=f3ZhNnvtV-w&t=7412s

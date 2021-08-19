@@ -1,0 +1,9 @@
+1. https://stackabuse.com/reading-and-writing-json-in-java/
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+</dependency>
+2. https://www.geeksforgeeks.org/get-name-of-current-method-being-executed-in-java/
+
+

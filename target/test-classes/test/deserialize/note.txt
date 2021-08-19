@@ -1,0 +1,5 @@
+Note that, whereas a JSON object is delimited by { } braces,
+an array is delimited by [ ] brackets, with some number of objects inside of it.
+
+tutor https://angiejones.tech/deserializing-api-responses-into-java-records/
+source generate pojo : http://www.jsonschema2pojo.org/

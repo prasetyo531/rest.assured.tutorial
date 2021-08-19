@@ -1,0 +1,10 @@
+https://www.jsonschema.net/home
+
+"required":
+means The Required property in the JSON Schema indicates that the JSON field is mandatory
+
+from schema
+- delete id
+- delete example
+- delete ALL properties.id
+- delete ALL properties.examples

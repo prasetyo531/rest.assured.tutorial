@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3815" started-at="2018-11-15T12:55:47Z" finished-at="2018-11-15T12:55:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3815" started-at="2018-11-15T12:55:47Z" finished-at="2018-11-15T12:55:51Z">
+      <class name="test.tcPost.post_register_web">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.tcPost.post_register_web@6e1567f1]" name="setUp" is-config="true" duration-ms="434" started-at="2018-11-15T12:55:47Z" finished-at="2018-11-15T12:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="run_post_register()[pri:1, instance:test.tcPost.post_register_web@6e1567f1]" name="run_post_register" duration-ms="2538" started-at="2018-11-15T12:55:48Z" finished-at="2018-11-15T12:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_post_register -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.tcPost.post_register_web@6e1567f1]" name="setUp" is-config="true" duration-ms="249" started-at="2018-11-15T12:55:50Z" finished-at="2018-11-15T12:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="run_post_login()[pri:2, instance:test.tcPost.post_register_web@6e1567f1]" name="run_post_login" duration-ms="105" started-at="2018-11-15T12:55:51Z" finished-at="2018-11-15T12:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_post_login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.tcPost.post_register_web@6e1567f1]" name="setUp" is-config="true" duration-ms="180" started-at="2018-11-15T12:55:51Z" finished-at="2018-11-15T12:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getuserprofile_web()[pri:3, instance:test.tcPost.post_register_web@6e1567f1]" name="getuserprofile_web" duration-ms="266" started-at="2018-11-15T12:55:51Z" finished-at="2018-11-15T12:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getuserprofile_web -->
+      </class> <!-- test.tcPost.post_register_web -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

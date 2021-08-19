@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "code": 200,
+        "msg": "success"
+    },
+    "error": "",
+    "data": {
+        "total": 36,
+        "rows": [
+            {
+                "id": 437982,
+                "username": "aga_fd",
+                "fullname": "",
+                "email": "itu.aga42@gmail.com",
+                "profile_picture": "http://image.femaledaily.com/dyn/150/images/post/d4b0283b32f5fa14eaba51f9a33e8056.jpg",
+                "is_follow": false,
+                "follow_date": "2020-03-20T05:52:00.000Z",
+                "follower_count": 2,
+                "following_count": 4,
+                "review_count": 1,
+                "points": 40,
+                "is_verified": false
+            }
+        ]
+    },
+    "pagination": {
+        "limit": 1,
+        "page": 1,
+        "total_page": 36
+    }
+}

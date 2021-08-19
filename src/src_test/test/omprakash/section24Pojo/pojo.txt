@@ -1,0 +1,2 @@
+- create getter setter
+- variable is private, not accesible outside class
