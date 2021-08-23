@@ -10,19 +10,19 @@ public class Data {
     private Integer total_pages;
 
     //array object = list
-    List<DataFolder> data;
+    List<DataFolder> dataFolder;
     Support support;
 
     public Data(){
 
     }
 
-    public Data(Integer page, Integer per_page,Integer total, Integer total_pages, List<DataFolder> data, Support support){
+    public Data(Integer page, Integer per_page,Integer total, Integer total_pages, List<DataFolder> dataFolder, Support support){
         this.page=page;
         this.per_page=per_page;
         this.total=total;
         this.total_pages=total_pages;
-        this.data=data;
+        this.dataFolder=dataFolder;
         this.support=support;
     }
 
@@ -66,11 +66,11 @@ public class Data {
         this.support = support;
     }
 
-    public List<DataFolder> getData() {
-        return data;
+    public List<DataFolder> getDataFolder() {
+        return dataFolder;
     }
 
-    public void setData(List<DataFolder> data) {
-        this.data = data;
+    public void setDataFolder(List<DataFolder> dataFolder) {
+        this.dataFolder = dataFolder;
     }
 }
