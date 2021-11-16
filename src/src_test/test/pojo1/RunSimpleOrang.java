@@ -24,7 +24,7 @@ public class RunSimpleOrang {
     public static String url_user3= "http://reqres.in/api/users/3";
 
     public static File xmlOutput;
-    public static String filePath = System.getProperty("user.dir")+"/src_test/test/pojo1/";
+    public static String filePath = System.getProperty("user.dir")+"/src/src_test/test/pojo1/";
 
     public static Integer id;
     public static String email;
@@ -55,7 +55,7 @@ public class RunSimpleOrang {
         deserializeFromJSON("user-2");
 
         compare("user-2","user-3","xml");
-        compare("user-2","user-2","json");
+//        compare("user-2","user-2","json");
     }
 
     public static void responseUser(String urlapi) {

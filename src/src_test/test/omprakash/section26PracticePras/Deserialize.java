@@ -41,5 +41,8 @@ public class Deserialize {
         Data data = given().expect().defaultParser(Parser.JSON).
                 when().
                 get("/users").as(Data.class);
+
+        String coba = data.getSupport().getText();
+        System.out.println(coba);
     }
 }
