@@ -42,5 +42,7 @@ public class ResponseBasic {
         for(String body : allBody) {
             System.out.println("body: " + body);
         }
+        System.out.println("wadidaw :"+allUserId.get(0));
+
     }
 }

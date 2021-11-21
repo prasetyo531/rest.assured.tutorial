@@ -1,76 +1,63 @@
 package test.omprakash.section26PracticePras;
 
-import java.util.List;
-
 public class Data {
 
-    private Integer page;
-    private Integer per_page;
-    private Integer total;
-    private Integer total_pages;
-
-    //array object = list
-    List<DataFolder> dataFolder;
-    Support support;
+    private Integer id;
+    private String email;
+    private String first_name;
+    private String last_name;
+    private String avatar;
 
     public Data(){
 
     }
 
-    public Data(Integer page, Integer per_page,Integer total, Integer total_pages, List<DataFolder> dataFolder, Support support){
-        this.page=page;
-        this.per_page=per_page;
-        this.total=total;
-        this.total_pages=total_pages;
-        this.dataFolder=dataFolder;
-        this.support=support;
+    public Data(Integer id, String email, String first_name, String last_name, String avatar){
+        this.id=id;
+        this.email=email;
+        this.first_name=first_name;
+        this.last_name=last_name;
+        this.avatar=avatar;
     }
 
-    public Integer getPage() {
-        return page;
+    public Integer getId() {
+        return id;
     }
 
-    public void setPage(Integer page) {
-        this.page = page;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
-    public Integer getPer_page() {
-        return per_page;
+    public String getEmail() {
+        return email;
     }
 
-    public void setPer_page(Integer per_page) {
-        this.per_page = per_page;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public Integer getTotal() {
-        return total;
+    public String getFirst_name() {
+        return first_name;
     }
 
-    public void setTotal(Integer total) {
-        this.total = total;
+    public void setFirst_name(String first_name) {
+        this.first_name = first_name;
     }
 
-    public Integer getTotal_pages() {
-        return total_pages;
+    public String getLast_name() {
+        return last_name;
     }
 
-    public void setTotal_pages(Integer total_pages) {
-        this.total_pages = total_pages;
+    public void setLast_name(String last_name) {
+        this.last_name = last_name;
     }
 
-    public Support getSupport() {
-        return support;
+    public String getAvatar() {
+        return avatar;
     }
 
-    public void setSupport(Support support) {
-        this.support = support;
+    public void setAvatar(String avatar) {
+        this.avatar = avatar;
     }
 
-    public List<DataFolder> getDataFolder() {
-        return dataFolder;
-    }
-
-    public void setDataFolder(List<DataFolder> dataFolder) {
-        this.dataFolder = dataFolder;
-    }
 }

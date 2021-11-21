@@ -1,4 +1,4 @@
-package test.omprakash.section24Pojo;
+package test.omprakash.section24PojoSerialize;
 
 public class UserProperties {
 

@@ -38,11 +38,11 @@ public class Deserialize {
         ResponseBody body = response.getBody();
         System.out.println("response is" + ((ResponseBody) body).prettyPrint());
 
-        Data data = given().expect().defaultParser(Parser.JSON).
+        DataRoot dataRoot = given().expect().defaultParser(Parser.JSON).
                 when().
-                get("/users").as(Data.class);
+                get("/users").as(DataRoot.class);
 
-        String coba = data.getSupport().getText();
+        String coba = dataRoot.getSupport().getText();
         System.out.println(coba);
     }
 }
