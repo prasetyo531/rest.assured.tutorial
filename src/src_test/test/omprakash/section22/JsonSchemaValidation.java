@@ -39,7 +39,7 @@ public class JsonSchemaValidation {
 
     @Test
     public void json_schema(){
-        File file = new File("src/src_test/test/omprakash/section16/login.json");
+        File file = new File("src/src_test/test/omprakash/section16/post-review.json");
         given().
                 body(file).
                 when().

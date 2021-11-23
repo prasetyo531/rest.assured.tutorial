@@ -1,4 +1,4 @@
-package test.omprakash.section26PracticePras;
+package test.omprakash.section26PracticeGet;
 
 public class Data {
 

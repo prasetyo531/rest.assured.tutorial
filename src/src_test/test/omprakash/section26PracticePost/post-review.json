@@ -1,0 +1,18 @@
+{
+  "duration_of_use": 2,
+  "is_firsttime_use": "y",
+  "is_recommended": "n",
+  "place_to_get": {
+    "place": "Offline",
+    "sub": {
+      "place": "JakartaXBeauty",
+      "sub": {}
+    }
+  },
+  "product_id": "699",
+  "rating": 4.8,
+  "text": "test review test review test review test review test review test review test review test review test review test review test review test review test review test review test review test review test review test review test review test review test review test review test review test review test review test review test review test review test review test review ",
+  "package_quality": 4.6,
+  "repurchase": "y",
+  "think_price": "e"
+}
